@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light l-navbar">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarTogglerDemo01"
+    aria-controls="navbarTogglerDemo01"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#">
+      <img src="assets/mtnlogo.png" alt="" class="img-fluid" />
+    </a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">
+          Store <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> Products & Services </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> Help & Support </a>
+      </li>
+    </ul>
+    <form class="d-flex">
+      <ul class="list-inline mt-4 mb-2 mtn-search">
+        <li class="list-inline-item me-4" (click)="openSearch()">
+          <i class="fa fa-search"></i>
+          <img src="assets/search.svg" />
+        </li>
+        <li class="list-inline-item me-4">
+          <div class="input-group mb-2">
+            <!-- {this.state.searchStatus &&<TextField id="standard-basic" label="" />} -->
+            <a
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="true"
+              class="nav-link dropdown-toggle"
+            >
+              <img
+                src="assets/dot.png"
+                style="width: 10px; margin-right: 10px"
+              />
+              Personal
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a href="#" class="dropdown-item"> individual </a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-item"> business </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </form>
+  </div>
+</nav>

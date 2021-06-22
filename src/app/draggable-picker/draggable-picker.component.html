@@ -1,0 +1,124 @@
+<main>
+    <div id="picker" class="picker">
+      <div class="cell">
+        <div class="cell-content">
+          <div style="padding-top: -50px">
+            <img
+              class="card-sm-image"
+              src="http://www.bilingo.co.za/mtn-digital/assets/small-card.png"
+            />
+          </div>
+          <br />
+          <div class="card-title">{{slidesData[0].title}}</div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="cell-content">
+          <div style="padding-top: -50px">
+            <img
+              class="card-sm-image"
+              src="http://www.bilingo.co.za/mtn-digital/assets/small-card.png"
+            />
+          </div>
+          <br />
+          <div class="card-title">{{slidesData[1].title}}</div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="cell-content">
+          <div style="padding-top: -50px">
+            <img
+              class="card-sm-image"
+              src="http://www.bilingo.co.za/mtn-digital/assets/small-card.png"
+            />
+          </div>
+          <br />
+          <div class="card-title">{{slidesData[2].title}}</div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="cell-content">
+          <div style="padding-top: -50px">
+            <img
+              class="card-sm-image"
+              src="http://www.bilingo.co.za/mtn-digital/assets/small-card.png"
+            />
+          </div>
+          <br />
+          <div class="card-title">{{slidesData[3].title}}</div>
+          <br />
+          <div class="btn-start">
+            <a class="card-action" *ngIf="status">
+              START HERE <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="cell-content">
+          <div style="padding-top: -50px">
+            <img
+              class="card-sm-image"
+              src="http://www.bilingo.co.za/mtn-digital/assets/small-card.png"
+            />
+          </div>
+          <br />
+          <div class="card-title">{{slidesData[4].title}}</div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="cell-content">
+          <div style="padding-top: -50px">
+            <img
+              class="card-sm-image"
+              src="http://www.bilingo.co.za/mtn-digital/assets/small-card.png"
+            />
+          </div>
+          <br />
+          <div class="card-title">{{slidesData[5].title}}</div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="cell-content">
+          <div style="padding-top: -50px">
+            <img
+              class="card-sm-image"
+              src="http://www.bilingo.co.za/mtn-digital/assets/small-card.png"
+            />
+          </div>
+          <br />
+          <div class="card-title">{{slidesData[6].title}}</div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="cell-content">
+          <div style="padding-top: -50px">
+            <img
+              class="card-sm-image"
+              src="http://www.bilingo.co.za/mtn-digital/assets/small-card.png"
+            />
+          </div>
+          <br />
+          <div class="card-title">{{slidesData[7].title}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="navSlide">
+      <div class="midleBox">
+        <button class="btn1" (click)="backSlide()">
+          <!-- <ChevronLeftIcon /> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+          </svg>
+        </button>
+        <button class="btn2" (click)="nextSlide()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </main>
+  <div class="navSlide">
